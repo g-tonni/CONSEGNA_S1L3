@@ -12,6 +12,9 @@ body {
     margin: 0;
 }
 
+
+/*----HEADER------------------------------------------------------------------*/
+
 header {
   text-align: center;
 }
@@ -24,8 +27,7 @@ header {
 header p{
     background-color: rgb(255, 250, 229);
     margin: 0;
-    border-top: 2px solid;
-    border-top-color: rgb(255, 200, 0);
+    border-top: 2px solid rgb(255, 200, 0);
     height: 50px;
     line-height: 50px;
 }
@@ -34,6 +36,91 @@ header p{
     font-weight: 600;
 }
 
+
+/*----MAIN------------------------------------------------------------------*/
+
 main {
-  width: 50%;
+    justify-items: center;
+    padding-bottom: 30px;
+}
+
+#contenitore-main {
+    width: 50%;
+}
+
+#contenitore-iniziale {
+    text-align: center;
+}
+
+h1 {
+    padding: 25px;
+}
+
+#focaccia {
+    width: 100%;
+    height: 35vw;
+    background-image: url(focaccia.png);
+    background-size: cover;
+    background-position: center bottom;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+#didascalia {
+    color: rgb(198, 175, 147);
+}
+
+#link1 {
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-left: 0;
+}
+
+#link1 p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    border-left: 2px solid rgb(255, 200, 0);
+}
+
+.rosso {
+    color: brown;
+}
+
+.blu {
+    color: cadetblue;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: cadetblue;
+}
+
+#ingredients {
+    padding-bottom: 30px;
+}
+
+li {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+
+/*----FOOTER------------------------------------------------------------------*/
+
+footer {
+    width: 100%;
+    height: 8vw;
+    background-color: cadetblue;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    line-height: 8vw;
 }
